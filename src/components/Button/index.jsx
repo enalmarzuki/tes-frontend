@@ -6,7 +6,7 @@ export default function Button(props) {
   const { id, onClick, children } = props;
   return (
     <button
-      className="text-center w-1/2  mx-1 bg-blue-500 py-2 rounded text-xl font-bold text-white"
+      className="text-center w-1/2  mx-1 bg-blue-500 py-2 rounded text-xl font-bold text-white hover:bg-blue-600"
       id={id}
       onClick={onClick}
     >
